@@ -129,8 +129,50 @@ ceiling(1.4)
 #floor()
 floor(1.4)
 
-#TODO: https://www.w3schools.com/r/r_strings.asp
+#R Strings
+#Can use single quotes or double
+"hello"
+'hello'
 
+#Assign a string to a variable
+str <- "Hello"
+str # print the value of str
 
+#Multiline string
+str <- "Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."
 
+str # print the value of str
 
+#to avoid new line add cat() func.
+str <- "Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."
+
+cat(str)
+
+#String length
+str <- "Hello World!"
+
+nchar(str)
+
+#Check a string
+#grepl() check a character or a sequence characters are present CASESENSITIVE
+str <- "Hello World!"
+
+grepl("H", str)
+grepl("Hello", str)
+grepl("X", str)
+
+#Combine Strings
+#paste() merge/concatenate
+#adds space between hello and world
+str1 <- "Hello"
+str2 <- "World"
+
+paste(str1, str2)
+
+#TODO: https://www.w3schools.com/r/r_strings_esc.asp
