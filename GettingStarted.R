@@ -175,4 +175,32 @@ str2 <- "World"
 
 paste(str1, str2)
 
-#TODO: https://www.w3schools.com/r/r_strings_esc.asp
+#R Escape Character
+#\\ backlash, \n new line, \r carriage return, \t tab, \b backspac
+str <- "We are the so-called \"Vikings\", from the north."
+
+str
+cat(str)
+
+#R Booleans/Logical values
+10 > 9    # TRUE because 10 is greater than 9
+10 == 9   # FALSE because 10 is not equal to 9
+10 < 9    # FALSE because 10 is greater than 9
+
+a <- 10
+b <- 9
+
+a > b
+
+a <- 200
+b <- 33
+
+if (b > a) {
+  print ("b is greater than a")
+} else {
+  print("b is not greater than a")
+}
+
+#R Operators
+# TODO: https://www.w3schools.com/r/r_operators.asp
+
