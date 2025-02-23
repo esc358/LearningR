@@ -202,5 +202,20 @@ if (b > a) {
 }
 
 #R Operators
-# TODO: https://www.w3schools.com/r/r_operators.asp
+#Arithmetic Operator
+# + addition
+10 + 5
+# - substraction
+10 - 5
+# * multiplication
+10 * 5
+# / division
+10 / 5
+# ^ exponent
+2 ^ 5
+# %% modulus (remainder from division)
+5 %% 2
+# %/% integer division
+15 %/% 2 # the integer divison (%/%) rounds the result down to the nearest whole number
+
 
